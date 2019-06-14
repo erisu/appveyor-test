@@ -9,3 +9,5 @@ before_build:
   - ps: ls C:\avvm\node
   - ps: systeminfo
   - ps: node -v
+  - ps: Install-Product node $env:nodejs_version
+  - ps: node -v
