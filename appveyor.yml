@@ -2,6 +2,9 @@ version: 1.0.{build}
 build:
   verbosity: minimal
 
+environment:
+  nodejs_version: 12
+
 before_build:
   - ps: ls C:\avvm\node
   - ps: systeminfo
