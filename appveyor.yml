@@ -8,3 +8,4 @@ environment:
 before_build:
   - ps: ls C:\avvm\node
   - ps: systeminfo
+  - ps: node -v
